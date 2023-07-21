@@ -1,0 +1,40 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-direction: column;
+  margin: 20px;
+  display: flex;
+}
+
+.card-header {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.teste {
+  background-color: red;
+  margin: 100px ;
+  position: cen;
+}
+
+.teste2 {
+  background-color: aqua;
+  margin-left: 5px;
+  position: relative;
+}
